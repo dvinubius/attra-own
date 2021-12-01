@@ -1,17 +1,14 @@
+The intial work on attra including commits from Oct 30 2021 until Dec 01 20201 is documented in the git history of [another repo](https://github.com/dvinubius/attra), which started as a scaffold-eth fork.
+
 # Attra - Ethereum app for incentive-boosted crowdfunding
 
 - Chainlink Hackathon submission
 
 - Deployed on Rinkeby. Work in progress. 
 
-## Disclaimer
+## Disclaimer 
 
 This project was submitted to the [Chainlink Hackathon](https://chain.link/hackathon) (Fall 2021).
 
-The branch `submission` shows the state of the project at the exact moment of submission.
-
-The branch `submission-cleanup` shows the project in a cleaner state. There are no significant changes to functionality, but there is better documentation and cleaner code. I made the changes within the first 2 days after submission for the **convenience of the jury** in order allow for easier inspection.
-
-The `master` branch of this repo tracks the further development of the project beyond the Chainlink Hackathon.
-
+**This repo was created post-submission** and has no commit history. The reason for doing this is explained in the original [attra repo readme](https://github.com/dvinubius/attra)
 
