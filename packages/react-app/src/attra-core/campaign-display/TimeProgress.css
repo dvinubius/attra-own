@@ -1,0 +1,85 @@
+.TimeProgress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #999999;
+}
+
+.TimeProgress .position-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(0.25rem);
+}
+.TimeProgress.horizontal .position-wrapper {
+  flex-direction: row-reverse;
+  gap: 1.5rem;
+}
+
+.TimeProgress .core {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-radius: 0.5rem;
+  transform: translateY(-0.25rem);
+  padding: 0.25rem 0.25rem 0;
+}
+
+.TimeProgress .ant-progress {
+  transform: translateY(0.25rem);
+}
+
+/* .TimeProgress .ant-progress {
+  margin-bottom: 0.5rem;
+} */
+
+.TimeProgress .ant-progress-text {
+  display: none;
+}
+
+.TimeProgress .core {
+  position: relative;
+}
+
+.TimeProgress .time-left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% + 0.25rem));
+}
+
+.TimeProgress .countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-0.25rem);
+}
+.TimeProgress .countdown * {
+  font-family: "IBM Plex Mono" !important;
+}
+.TimeProgress .countdown .numbers {
+  font-weight: 700;
+}
+
+.TimeProgress .countdown .legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TimeProgress .until-part {
+  font-weight: 500;
+  font-size: 0.75rem;
+}
+
+.TimeProgress .ends-part {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: black;
+}
+
+.TimeProgress .countdown .numbers,
+.TimeProgress .countdown .legend,
+.TimeProgress .countdown .ends-part {
+  /* font-size: 1rem; */
+  line-height: 1.25rem;
+}

@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+:root {
+  /* --primary-col: hsl(164, 71%, 44%); */
+  /* --primary-col: hsl(4, 90%, 54%);
+  --primary-col-shadow: hsla(4, 90%, 54%, 0.3); */
+
+  --primary-col: hsl(229, 90%, 54%);
+  --primary-col-shadow: hsla(229, 90%, 54%, 0.3);
+
+  --sec-col: hsl(229, 90%, 54%);
+  --sec-col-shadow: hsla(229, 90%, 54%, 0.3);
+
+  --sec-col: hsl(4, 90%, 54%);
+  --sec-col-dark: hsl(4, 90%, 28%);
+  --sec-col-semi: hsla(4, 90%, 54%, 0.6);
+  --sec-col-shadow: hsla(4, 90%, 54%, 0.302);
+
+  --transparent-header-col: hsla(0, 0%, 100%, 0.85);
+  --transparent-header-col: hsla(41, 50%, 63%, 0.051);
+  --transparent-header-col: hsl(41deg 20% 95% / 70%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: white;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* OVERRIDE ANT styles */
+
+* {
+  font-family: "IBM Plex Sans" !important;
+}
+
+.mono {
+  font-family: "IBM Plex Mono" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500 !important;
+}
+
+.ant-layout {
+  --bg-col: hsla(4, 20%, 54%, 0.05);
+  --angle: -30deg;
+  background-color: white;
+  background-image: -webkit-linear-gradient(
+    var(--angle),
+    var(--bg-col) 0%,
+    transparent 100%
+  );
+  background-image: -moz-linear-gradient(
+    var(--angle),
+    var(--bg-col) 0%,
+    transparent 100%
+  );
+  background-image: -o-linear-gradient(
+    var(--angle),
+    var(--bg-col) 0%,
+    transparent 100%
+  );
+  background-image: linear-gradient(
+    var(--angle),
+    var(--bg-col) 0%,
+    transparent 100%
+  );
+}
+
+.ant-btn {
+  transition-duration: 0.15s;
+  min-width: 80px;
+}
+
+.ant-btn:not(.ant-btn-primary):hover {
+  border-color: var(--sec-col);
+  color: var(--sec-col);
+}
+.ant-btn-primary,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  /* background-color: var(--primary-col);
+  border-color: var(--primary-col); */
+  background-color: var(--sec-col);
+  border-color: var(--sec-col);
+  border-radius: 0.25rem;
+}
+.ant-btn-primary:hover {
+  opacity: 0.7;
+}
+.ant-btn-primary:focus {
+  box-shadow: 0 0 1px 1px #ffffff9e inset;
+}
+
+.ant-menu-horizontal {
+  background-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  /* border-bottom: 2px solid var(--primary-col) !important; */
+  border-bottom: 2px solid var(--sec-col) !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  /* color: var(--primary-col) !important; */
+  color: var(--sec-col) !important;
+}
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  /* font-weight: 500; */
+}
+
+.ant-tabs-ink-bar {
+  background: var(--sec-col) !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--sec-col) !important;
+}
+.ant-tabs-tab:hover,
+.ant-tabs-tab.ant-tabs-tab-btn:active {
+  color: var(--sec-col) !important;
+  font-weight: 400;
+}
+
+.ant-modal-content {
+  border-radius: 0.25rem;
+}
+.ant-modal-header {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.ant-modal-footer {
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.ant-spin-dot-item {
+  background-color: var(--sec-col);
+}

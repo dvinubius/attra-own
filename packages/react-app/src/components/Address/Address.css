@@ -1,0 +1,16 @@
+.Address .identicon {
+  border-radius: 50px;
+}
+
+.Address .explore-link {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.Address .copy-icon:hover,
+.Address .link-icon:hover {
+  opacity: 0.7;
+}

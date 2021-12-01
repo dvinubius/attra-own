@@ -1,0 +1,8 @@
+.AddLinkModal .buttons {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}

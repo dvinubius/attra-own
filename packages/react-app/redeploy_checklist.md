@@ -1,0 +1,3 @@
+- copy abis into cloud functions
+- clear moralis tables
+- sync moralis via cli

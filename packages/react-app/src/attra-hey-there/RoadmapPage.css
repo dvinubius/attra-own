@@ -1,0 +1,28 @@
+.Roadmap {
+  display: flex;
+  gap: 10px;
+}
+
+.tl-item {
+  font-weight: 400 !important;
+}
+
+.Roadmap .ant-list {
+  padding-left: 2rem;
+  max-width: 400px;
+}
+.Roadmap .ant-timeline-item:not(:last-child) .ant-list {
+  margin-bottom: 1rem;
+}
+
+.Roadmap .card {
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+  padding: 1rem 3rem 0 !important;
+  border: 1px solid #e7eaf3;
+  border-radius: 0.5rem;
+}
+
+.Roadmap .ant-timeline-item-tail {
+  transform-origin: top;
+  transform: rotate(calc(-4deg));
+}

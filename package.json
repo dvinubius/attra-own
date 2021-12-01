@@ -1,0 +1,65 @@
+{
+  "name": "@scaffold-eth/monorepo",
+  "version": "1.0.0",
+  "keywords": [
+    "ethereum",
+    "react",
+    "uniswap",
+    "workspaces",
+    "yarn"
+  ],
+  "private": true,
+  "scripts": {
+    "react-app:build": "yarn workspace @scaffold-eth/react-app build --max-old-space-size=12288",
+    "react-app:eject": "yarn workspace @scaffold-eth/react-app eject",
+    "react-app:start": "yarn workspace @scaffold-eth/react-app start",
+    "react-app:test": "yarn workspace @scaffold-eth/react-app test",
+    "build": "yarn workspace @scaffold-eth/react-app build --max-old-space-size=12288",
+    "prettier": "yarn workspace @scaffold-eth/react-app prettier",
+    "chain": "yarn workspace @scaffold-eth/hardhat chain",
+    "fork": "yarn workspace @scaffold-eth/hardhat fork",
+    "node": "yarn workspace @scaffold-eth/hardhat chain",
+    "test": "yarn workspace @scaffold-eth/hardhat test",
+    "start": "yarn workspace @scaffold-eth/react-app start",
+    "compile": "yarn workspace @scaffold-eth/hardhat compile",
+    "deploy": "yarn workspace @scaffold-eth/hardhat deploy",
+    "watch": "yarn workspace @scaffold-eth/hardhat watch",
+    "accounts": "yarn workspace @scaffold-eth/hardhat accounts",
+    "balance": "yarn workspace @scaffold-eth/hardhat balance",
+    "balance-of": "yarn workspace @scaffold-eth/hardhat balance-of",
+    "send": "yarn workspace @scaffold-eth/hardhat send",
+    "read-price-feed": "yarn workspace @scaffold-eth/hardhat hardhat read-price-feed",
+    "fund-link": "yarn workspace @scaffold-eth/hardhat hardhat fund-link",
+    "request-data": "yarn workspace @scaffold-eth/hardhat hardhat request-data",
+    "read-data": "yarn workspace @scaffold-eth/hardhat hardhat read-data",
+    "request-random-number": "yarn workspace @scaffold-eth/hardhat hardhat request-random-number",
+    "read-random-number": "yarn workspace @scaffold-eth/hardhat hardhat read-random-number",
+    "read-keepers-counter": "yarn workspace @scaffold-eth/hardhat hardhat read-keepers-counter",
+    "ipfs": "yarn workspace @scaffold-eth/react-app ipfs",
+    "surge": "yarn workspace @scaffold-eth/react-app surge",
+    "s3": "yarn workspace @scaffold-eth/react-app s3",
+    "ship": "yarn workspace @scaffold-eth/react-app ship",
+    "generate": "yarn workspace @scaffold-eth/hardhat generate",
+    "account": "yarn workspace @scaffold-eth/hardhat account",
+    "mineContractAddress": "cd packages/hardhat && npx hardhat mineContractAddress",
+    "wallet": "cd packages/hardhat && npx hardhat wallet",
+    "fundedwallet": "cd packages/hardhat && npx hardhat fundedwallet",
+    "flatten": "cd packages/hardhat && npx hardhat flatten",
+    "clean": "cd packages/hardhat && npx hardhat clean",
+    "theme": "yarn workspace @scaffold-eth/react-app theme",
+    "watch-theme": "yarn workspace @scaffold-eth/react-app watch"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/hardhat",
+      "**/hardhat/**",
+      "**/hardhat-ts",
+      "**/hardhat-ts/**",
+      "**/react-app/**"
+    ]
+  },
+  "dependencies": {}
+}
