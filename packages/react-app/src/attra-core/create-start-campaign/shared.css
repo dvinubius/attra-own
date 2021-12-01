@@ -1,0 +1,16 @@
+.form-item {
+  margin-bottom: 1rem;
+  width: 300px;
+}
+
+.section-description {
+  display: block;
+  margin-bottom: 2rem !important;
+  text-align: left;
+}
+
+.form-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

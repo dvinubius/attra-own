@@ -1,0 +1,79 @@
+.ContributeEstimate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ContributeEstimate .explain {
+  font-size: 1rem;
+}
+.ContributeEstimate .explain.hot {
+  color: var(--sec-col) !important;
+}
+
+.ContributeEstimate .explain:first-of-type {
+  margin-top: 1rem;
+}
+.ContributeEstimate .explain:last-of-type {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.ContributeEstimate .estimate-table {
+  display: flex;
+  justify-content: center;
+}
+
+.ContributeEstimate .estimate-table .ant-table {
+  width: 400px;
+}
+
+.ContributeEstimate .ant-table-thead .ant-table-cell {
+  background-color: white;
+}
+
+.ContributeEstimate .pseudo-col {
+  padding: 1rem 0.5rem;
+}
+.ContributeEstimate .ant-table-tbody .pseudo-col::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 1.6em;
+  background-color: rgba(0, 0, 0, 0.06);
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+  content: "";
+}
+
+.ContributeEstimate .ant-table-thead .pseudo-col {
+  background-color: white;
+}
+
+.ContributeEstimate .ant-table-thead .ant-table-cell {
+  padding: 0.5rem 1rem;
+}
+.ContributeEstimate .ant-table-cell {
+  text-align: center;
+}
+.ContributeEstimate .chances-col {
+  width: 140px;
+}
+
+.ContributeEstimate
+  .estimate-table
+  .ant-table-tbody
+  .ant-table-cell:not(.pseudo-col) {
+  font-family: "IBM Plex Mono" !important;
+}
+
+.ContributeEstimate .tickets {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+}
+.ContributeEstimate .tickets .anticon {
+  font-size: 1.25rem;
+}

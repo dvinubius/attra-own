@@ -1,0 +1,19 @@
+.Contribute {
+  align-self: center;
+}
+
+.Contribute .contribution-button {
+  min-width: 140px;
+  align-self: center;
+  margin-bottom: 1rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Contribute .contribution-button .icon {
+  font-size: 1.25rem;
+}
+
+.Contribute .ant-modal-footer:not(.custom-footer) {
+  padding: 0 !important;
+}

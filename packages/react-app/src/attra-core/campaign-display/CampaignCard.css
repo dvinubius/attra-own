@@ -1,0 +1,88 @@
+/* WHOLE */
+
+.CampaignCard {
+  width: 100%;
+  width: 600px;
+
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+  border: 1px solid #e7eaf3;
+  border-radius: 0.25rem;
+
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+.CampaignCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 15%);
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+/* TITLE */
+
+.CampaignCard .title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CampaignCard .title-row .ant-typography {
+  margin: 0;
+}
+
+.CampaignCard .address {
+  display: flex;
+  align-items: center;
+  transform-origin: right;
+  transform: scale(0.8);
+  font-size: 1.25rem;
+}
+
+/* BODY */
+
+.CampaignCard .ant-card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 140px;
+  padding: 0;
+}
+
+.CampaignCard .ant-card-body .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.CampaignCard .status-bar {
+  align-self: stretch;
+}
+
+.CampaignCard .ant-divider {
+  margin: 0 !important;
+}
+.CampaignCard .status-bar .status-content {
+  padding: 0 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+.CampaignCard .status-bar .status-content.success {
+  background-color: var(--sec-col);
+}
+.CampaignCard .status-bar .status-content.success .ant-typography {
+  color: white;
+}
+.CampaignCard .status-bar .status-content.fail {
+  background-color: var(--sec-col-shadow);
+}
+
+.CampaignCard .status-bar .status-content .ant-typography {
+  margin: 0 !important;
+  font-size: 0.875rem;
+}

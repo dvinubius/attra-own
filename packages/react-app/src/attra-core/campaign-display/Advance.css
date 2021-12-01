@@ -1,0 +1,12 @@
+.Advance .contribution-button {
+  min-width: 160px;
+  /* padding: 0 5rem; */
+  align-self: center;
+  margin-bottom: 1rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Advance .contribution-button .icon {
+  font-size: 1.25rem;
+}

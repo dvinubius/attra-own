@@ -1,0 +1,140 @@
+.CampaignViewer {
+  width: 100%;
+}
+
+.CampaignViewer .ant-card-head-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CampaignViewer .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* ----------- DASHBOARD --------- */
+
+.CampaignViewer .stats-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+/*  --------- ACTIONS ---------- */
+
+.CampaignViewer .actions-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 1rem 0;
+}
+
+.CampaignViewer .contribution-col {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto 2rem;
+  gap: 0.5rem;
+  font-size: 1rem;
+
+  border-top: 1px solid var(--sec-col);
+  border-bottom: 1px solid var(--sec-col);
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.CampaignViewer .contribution-col * {
+  margin: 0 !important;
+}
+.CampaignViewer .contribution-col .ant-space * {
+  font-family: "IBM Plex Mono" !important;
+}
+
+.CampaignViewer .contribution-col .left {
+  width: 8rem;
+  display: inline-block;
+}
+.CampaignViewer .contribution-col .ant-space-item {
+  height: 1.5rem !important;
+}
+
+/* -------- MANAGE ---------- */
+
+.CampaignViewer .manage-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 2rem 0 2.5rem;
+}
+
+.CampaignViewer .manage-col {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
+.CampaignViewer .manage-col .ant-btn {
+  width: 120px;
+}
+
+.CampaignViewer .manage-col .actions-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.CampaignViewer .manage-col .actions-row .left {
+  width: 120px;
+  display: inline-block;
+}
+.CampaignViewer .manage-col .actions-row .right {
+  margin-right: 1rem;
+}
+
+.CampaignViewer .manage-col .actions-row .info .warning {
+  color: var(--sec-col);
+}
+
+.CampaignViewer .manage-col .actions-row.advance {
+  justify-content: center;
+}
+
+.CampaignViewer .StatusProgress {
+  align-self: stretch;
+  margin-bottom: 1rem;
+}
+
+/* --------- ABOUT ---------- */
+
+.CampaignViewer .info-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.CampaignViewer .campaign-info {
+  width: 300px;
+}
+
+.CampaignViewer .info-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 2rem;
+}
+.CampaignViewer .campaign-info.right .info-row {
+  justify-content: flex-end;
+}
+
+.CampaignViewer .campaign-info .info-row .left {
+  width: 100px;
+  display: block;
+  color: black;
+}
+.CampaignViewer .info-row .Address {
+  padding: 0 !important;
+}

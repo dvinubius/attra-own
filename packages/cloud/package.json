@@ -1,0 +1,9 @@
+{
+  "name": "cloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch:cloud": "moralis-admin-cli watch-cloud-folder --moralisApiKey FD1b2XjQ6cQNIbe --moralisApiSecret gzoCQQ8uHGsVOoK --moralisSubdomain nio7fhgd8jve.usemoralis.com --autoSave 1 --moralisCloudfolder ../cloud"
+  }
+}

@@ -1,0 +1,37 @@
+#!/bin/bash
+yarn add-contract-main <<EOD
+0
+0,1,2,3,5,6,7,8
+Advance Status of Campaign
+0xba3b83908f69C79AB594bCF4e70c718Ea58af030
+AdvanceStatus
+y
+Contribution made
+0xba3b83908f69C79AB594bCF4e70c718Ea58af030
+Contribution
+y
+Created Campaign
+0xba3b83908f69C79AB594bCF4e70c718Ea58af030
+CreateCampaign
+y
+Funded campaign with link
+0xba3b83908f69C79AB594bCF4e70c718Ea58af030
+LinkFunding
+y
+Paid Beneficiary
+0xba3b83908f69C79AB594bCF4e70c718Ea58af030
+PayBeneficiary
+y
+Paid Creator
+0x
+PayCreator
+y
+Paid winners
+0xba3b83908f69C79AB594bCF4e70c718Ea58af030
+PayWinners
+y
+Refunds made
+0xba3b83908f69C79AB594bCF4e70c718Ea58af030
+Refund
+y
+EOD

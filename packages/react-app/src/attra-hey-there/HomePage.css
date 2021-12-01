@@ -1,0 +1,157 @@
+.Home {
+  max-width: 75rem;
+  /* 1200px */
+}
+.Home-inner {
+  max-width: 75rem;
+  width: max-content;
+  margin: auto;
+}
+
+.banner {
+  height: 20rem;
+  padding: 4rem 0;
+  max-width: calc(100vw - 1.5rem) !important;
+  width: 75rem !important;
+  margin: -4rem auto 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--sec-col);
+  border-radius: 0.5rem;
+}
+
+.banner-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home .main-title,
+.Home .taglines {
+  text-align: center;
+  margin: 0 !important;
+}
+.Home .main-title {
+  font-size: 4rem;
+  /* text-transform: uppercase; */
+  font-weight: 400 !important;
+  color: white !important;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 0.5rem;
+  padding: 0.4rem 0.5rem;
+  margin-bottom: 0.5rem !important;
+}
+
+.Home .main-title .logo-text {
+  display: block;
+  transform: translateY(-0.08em);
+}
+
+.Home .taglines {
+  max-width: 800px;
+  font-size: 1.5rem;
+}
+
+.tagline-big {
+  color: white !important;
+  font-size: 2rem;
+  margin: 0 !important;
+}
+
+.banner-symbol-wrapper {
+  font-size: 6rem;
+}
+.banner-symbol-wrapper .attra-symbol {
+  margin: auto;
+  opacity: 0.8;
+}
+
+.Home .attra-burn {
+  text-shadow: 0px 0px 6px var(--sec-col-shadow);
+  /* font-weight: 500; */
+}
+
+.Home .attra-deco {
+  border-top: 1px solid var(--sec-col);
+  border-bottom: 1px solid var(--sec-col);
+  border-radius: 0.25rem;
+  transform: translateY(2px);
+  padding: 2px 0 4px;
+}
+
+.Home .explain-card.ant-card {
+  width: 1200px;
+  max-width: calc(100vw - 24px) !important;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.Home .explain-card.ant-card {
+  margin: 3rem 0;
+}
+
+.Home .explain {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.Home .explain .ant-typography {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.Home .ant-card {
+  width: 800px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-shadow: 0 0.5rem 1.2rem rgb(189 197 209 / 20%);
+  border: 1px solid #e7eaf3;
+  border-radius: 0.5rem;
+}
+
+.Home .ant-card.feature-card {
+  margin-bottom: 2rem;
+}
+
+.Home .ant-card .cardTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Home .ant-card .lists-row {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  padding-bottom: 1rem;
+}
+
+.Home .cards-row {
+  display: flex;
+  gap: 1rem;
+  width: 800px;
+  margin: auto;
+}
+.Home .cards-row .ant-card {
+  width: 400px;
+}
+
+.feature-card-wrapper {
+  padding: 2rem 1rem;
+  width: fit-content;
+  margin: 0 auto;
+  border-top: 2px solid var(--sec-col);
+  border-bottom: 2px solid var(--sec-col);
+  border-radius: 0.5rem;
+}
+.feature-card-wrapper .ant-card {
+  margin-bottom: 0 !important;
+}

@@ -1,0 +1,29 @@
+.header {
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
+  padding: 0 10px;
+  box-shadow: 0 1px 10px rgb(151 164 175 / 10%);
+  backdrop-filter: blur(5px);
+  background-color: var(--transparent-header-col);
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.navMenu {
+  display: flex;
+  font-size: 17px;
+  width: 100%;
+  justify-content: center;
+}

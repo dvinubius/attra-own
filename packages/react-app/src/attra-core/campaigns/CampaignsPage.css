@@ -1,0 +1,46 @@
+.CampaignsPage {
+  margin: 0 auto;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.CampaignsPage .content {
+  position: relative;
+}
+.CampaignsPage .content .the-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  align-items: center;
+  display: flex;
+  height: 57px;
+  z-index: 1;
+}
+
+.CampaignsPage .ant-tabs-content-holder {
+  min-height: 60vh;
+  padding-top: 1rem;
+}
+
+.CampaignsPage .campaigns {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.CampaignsPage .no-cards {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.CampaignsPage .detail-view {
+  width: 100%;
+}
+
+.CampaignsPage .detail-view .back-button {
+  margin-bottom: 2rem;
+}
