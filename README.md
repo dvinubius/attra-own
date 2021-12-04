@@ -12,3 +12,6 @@ This project was submitted to the [Chainlink Hackathon](https://chain.link/hacka
 
 **This repo was created post-submission** and has no commit history. The reason for doing this is explained in the original [attra repo readme](https://github.com/dvinubius/attra)
 
+# Live Demo
+https://attra.vercel.app/home
+Make sure to connect metamask in order to use the app (there are no UX guardrails, it's merely a prototype)
