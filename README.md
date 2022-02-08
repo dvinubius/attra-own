@@ -4,6 +4,8 @@
 
 This project was submitted to the [Chainlink Hackathon](https://chain.link/hackathon) (Fall 2021)
 
+Watch a short presentation [here](https://www.youtube.com/watch?v=kXdYgPUWBT0).
+
 ## 🚧 🛠 💻 Work in progress - follow for updates!
 
 Was submitted on deadline, needs more work even as a prototype.
