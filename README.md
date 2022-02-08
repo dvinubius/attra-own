@@ -23,3 +23,15 @@ Planned improvements:
 ## Try it on [Rinkeby](https://attra.vercel.app/home) 🤩
 
 Make sure to connect metamask in order to use the app (there are no UX guardrails, it's merely a prototype)
+
+## 💸 📈 👔 Business opportunity
+
+If you'd like to capitalize on this concept, feel free to fork etc.
+
+You'll probably need to fix bugs and bring some UX/security improvments to the project, as well as reachitect it for scaling.
+
+You may want to adjust the mechanism design surface etc., to make the app meet your specific needs. 
+
+==> **Hit me up for expert help** ;-) 
+
+DMs open on Twitter [@dvinubius](https://twitter.com/messages/compose?recipient_id=1347938190385172486)
