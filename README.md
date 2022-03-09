@@ -1,10 +1,18 @@
 # Attra - Ethereum app for incentive-boosted crowdfunding
 
+An app to attract money.
+
 ## Hack
 
 This project was submitted to the [Chainlink Hackathon](https://chain.link/hackathon) (Fall 2021)
 
-Watch a short presentation [here](https://www.youtube.com/watch?v=kXdYgPUWBT0).
+## Watch a short presentation [here](https://www.youtube.com/watch?v=kXdYgPUWBT0).
+
+This is in case you want an overview & speedrun-demo. 
+
+For higher delights, please read the code. 
+
+Just kidding, it's still rough and work in progress.
 
 ## 🚧 🛠 💻 Work in progress - follow for updates!
 
@@ -22,13 +30,18 @@ Planned improvements:
 
 ## Try it on [Rinkeby](https://attra.vercel.app/home) 🤩
 
-Make sure to connect metamask in order to use the app (there are no UX guardrails, it's merely a prototype)
+Make sure to connect metamask in order to use the app (there are **no UX guardrails**, this is merely a prototype)
 
 ## 💸 📈 👔 Business opportunity
 
 If you'd like to capitalize on this concept, feel free to fork etc.
 
-You'll probably need to fix bugs and bring some UX/security improvments to the project, as well as reachitect it for scaling.
+You'll probably need to 
+
+- fix bugs
+- add lots of tests
+- bring some UX/security improvments to the project
+- reachitect it for optimal scaling
 
 You may want to adjust the mechanism design surface etc., to make the app meet your specific needs. 
 
